@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./hero.svg?v=2" width="100%" alt="ywgf88 — 工程管理 / 网络折腾爱好者" />
+  <img src="https://raw.githubusercontent.com/ywgf88/ywgf88/main/hero.svg?v=2" width="100%" alt="ywgf88 — 工程管理 / 网络折腾爱好者" />
 </div>
 
 ## 关于我
@@ -57,7 +57,7 @@ Everything here is a working note rather than a product. If a repo helps you, an
 
 <div align="center">
 
-<img src="./logo.svg" width="88" alt="ywgf88 logo" />
+<img src="https://raw.githubusercontent.com/ywgf88/ywgf88/main/logo.svg" width="88" alt="ywgf88 logo" />
 
 <sub>武汉 · Wuhan, China — GitHub since 2018</sub>
 
