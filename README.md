@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./hero.svg" width="100%" alt="ywgf88 — 工程管理 / 网络折腾爱好者" />
+  <img src="./hero.svg?v=2" width="100%" alt="ywgf88 — 工程管理 / 网络折腾爱好者" />
 </div>
 
 ## 关于我
