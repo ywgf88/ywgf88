@@ -1,5 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/ywgf88/ywgf88/main/banner-ride.svg" width="100%" alt="ywgf88 — 白天骑行 / 晚上折腾路由器" />
+
+  <p><b>中文</b> · <a href="#english">English</a></p>
 </div>
 
 ## 关于我
@@ -49,11 +51,43 @@
 
 </div>
 
-## About
+---
 
-By day I ride — greenways, parks, and the streets of Wuhan, watching how the city shifts year by year. By night I treat routers and firmware as a lab: building ImmortalWrt 25.12 images on GitHub Actions, wiring up soft-router setups, and automating the boring parts with Docker and Python.
+## English
 
-Everything here is a working note rather than a product. If a repo helps you, an issue is welcome.
+By day I ride — greenways, parks, and the streets of Wuhan, chasing daylight and watching how the city shifts block by block.
+By night I treat routers and firmware as a lab: flashing, reconfiguring, and chasing compile errors until the image finally boots.
+
+I signed up on GitHub back in 2018 and have used it as a scratchpad ever since. Three things take most of my time now:
+
+- **Firmware builds in the cloud** — GitHub Actions pipelines for ImmortalWrt 25.12 on both x86_64 and MT7981: swapping plugins, resizing rootfs, and fixing the bugs that only surface halfway through a build.
+- **Soft-router setups** — Passwall2, themes, `uci-defaults`. The goal is simple: flash the image, plug it in, and everything works without a pile of manual steps afterwards.
+- **Self-hosting and automation** — Docker for services, small Python scripts for the repetitive parts. Write it once, let it run in the background.
+
+> A simple preference: let scripts do the repetitive work, and write down every pit I fall into.
+
+## What's on the bench
+
+| Repo | What it is |
+| :--- | :--- |
+| [**Actions-ImmortalWrt-X86**](https://github.com/ywgf88/Actions-ImmortalWrt-X86) | ImmortalWrt `openwrt-25.12` x86_64 build template — 25.12.2 / IPv4 / 1G rootfs |
+| [**Actions-OpenWrt-MT7981**](https://github.com/ywgf88/Actions-OpenWrt-MT7981) | OpenWrt 25.12.2 images for MT7981 boards: CMCC RAX3000M and 360 T7 |
+| [**Actions-OpenWrt-X86**](https://github.com/ywgf88/Actions-OpenWrt-X86) | x86 build pipeline adapted from the P3TERX template |
+| [**openwrt-action-ct3003**](https://github.com/ywgf88/openwrt-action-ct3003) | My long-running daily-driver build for the CT3003 |
+
+<sub>The rest are issues-worth of interest and forks: Kwrt, ImmortalWrt-ImageBuilder, TrendRadar, aerial-tv… if it looks interesting, I pull it down and run it.</sub>
+
+## Numbers
+
+<div align="center">
+
+<sub>20 public repos · mostly Shell, a little Python · most of them still updated this year.</sub>
+
+</div>
+
+Everything here is a working note, not a product. If a repo saves you an hour, an issue is welcome.
+
+<p><a href="#关于我">↑ 回到中文</a></p>
 
 <div align="center">
 
