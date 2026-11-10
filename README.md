@@ -44,9 +44,8 @@
 <div align="center">
 
 ![Followers](https://img.shields.io/github/followers/ywgf88?style=for-the-badge&labelColor=0A1626&color=33C6FF&logo=github&logoColor=white)
-![Stars](https://img.shields.io/github/stars/ywgf88?style=for-the-badge&labelColor=0A1626&color=5FF0DC&logo=github&logoColor=white)
 
-<sub>Shell 为主，Python 为辅，剩下的交给 Actions 跑。</sub>
+<sub>20 个公开仓库 · Shell 为主，Python 为辅，大部分今年还在更新。</sub>
 
 </div>
 
