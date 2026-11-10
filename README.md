@@ -55,6 +55,10 @@
 
 ## English
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ywgf88/ywgf88/main/banner-ride-en.svg" width="100%" alt="ywgf88 — ride by day, flash by night" />
+</div>
+
 By day I ride — greenways, parks, and the streets of Wuhan, chasing daylight and watching how the city shifts block by block.
 By night I treat routers and firmware as a lab: flashing, reconfiguring, and chasing compile errors until the image finally boots.
 
@@ -87,12 +91,12 @@ I signed up on GitHub back in 2018 and have used it as a scratchpad ever since. 
 
 Everything here is a working note, not a product. If a repo saves you an hour, an issue is welcome.
 
-<p><a href="#关于我">↑ 回到中文</a></p>
+<p><a href="#关于我">↑ Back to the Chinese version</a></p>
 
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/ywgf88/ywgf88/main/logo.svg" width="88" alt="ywgf88 logo" />
 
-<sub>武汉 · Wuhan, China — GitHub since 2018</sub>
+<sub>Wuhan, China — on GitHub since 2018</sub>
 
 </div>
