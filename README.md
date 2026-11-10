@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ywgf88/ywgf88/main/hero.svg?v=2" width="100%" alt="ywgf88 — 工程管理 / 网络折腾爱好者" />
+  <img src="https://raw.githubusercontent.com/ywgf88/ywgf88/main/hero.svg?v=3" width="100%" alt="ywgf88 — 白天骑行 / 晚上折腾路由器" />
 </div>
 
 ## 关于我
 
-白天骑行：跟大自然和阳光打交道，在绿道，在公园，在马路上观察武汉的街道和变化。
+白天骑行：在绿道、在公园、在马路上，跟大自然和阳光打交道，顺路看武汉的街道和变化。
 晚上做实验：把路由器和固件当成玩具，反复刷机、改配置、修编译坑。
 
 从 2018 年注册 GitHub 起，这里一直是我的草稿纸。现在主要折腾三件事：
@@ -51,7 +51,7 @@
 
 ## About
 
-By day I run engineering projects — utility duct relocation and telecom network O&M. By night I treat routers and firmware as a lab: building ImmortalWrt 25.12 images on GitHub Actions, wiring up soft-router setups, and automating the boring parts with Docker and Python.
+By day I ride — greenways, parks, and the streets of Wuhan, watching how the city shifts year by year. By night I treat routers and firmware as a lab: building ImmortalWrt 25.12 images on GitHub Actions, wiring up soft-router setups, and automating the boring parts with Docker and Python.
 
 Everything here is a working note rather than a product. If a repo helps you, an issue is welcome.
 

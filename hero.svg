@@ -110,7 +110,7 @@
   </g>
 
   <text x="398" y="212" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="98" font-weight="700" letter-spacing="4" fill="url(#hb-name)">ywgf88</text>
-  <text x="400" y="278" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif" font-size="40" fill="#cfdfec" letter-spacing="3">工程管理 · 网络折腾爱好者</text>
+  <text x="400" y="278" font-family="'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif" font-size="40" fill="#cfdfec" letter-spacing="3">白天骑行看武汉 · 晚上刷固件</text>
   <rect x="402" y="304" width="320" height="2.5" fill="#35ecd6" opacity="0.85">
     <animate attributeName="width" values="320;640;320" dur="7s" repeatCount="indefinite"/>
   </rect>
