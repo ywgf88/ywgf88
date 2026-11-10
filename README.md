@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/ywgf88/ywgf88/main/banner-ride.svg" width="100%" alt="ywgf88 — 白天骑行 / 晚上折腾路由器" />
 
-  <p><b>中文</b> · <a href="#english">English</a></p>
+  <p><a href="#关于我">Chinese version</a> · <a href="#english">English</a></p>
 </div>
 
 ## 关于我
