@@ -1,10 +1,52 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ywgf88/ywgf88/main/banner-ride.svg" width="100%" alt="ywgf88 — 白天骑行 / 晚上折腾路由器" />
+  <img src="https://raw.githubusercontent.com/ywgf88/ywgf88/main/banner-ride-en.svg" width="100%" alt="ywgf88 — ride by day, flash by night" />
 
-  <p><a href="#关于我">Chinese version</a> · <a href="#english">English</a></p>
+  <p><b>English</b> · <a href="#中文版">Chinese version</a></p>
 </div>
 
-## 关于我
+## English
+
+By day I ride — greenways, parks, and the streets of Wuhan, chasing daylight and watching how the city shifts block by block.
+By night I treat routers and firmware as a lab: flashing, reconfiguring, and chasing compile errors until the image finally boots.
+
+I signed up on GitHub back in 2018 and have used it as a scratchpad ever since. Three things take most of my time now:
+
+- **Firmware builds in the cloud** — GitHub Actions pipelines for ImmortalWrt 25.12 on both x86_64 and MT7981: swapping plugins, resizing rootfs, and fixing the bugs that only surface halfway through a build.
+- **Soft-router setups** — Passwall2, themes, `uci-defaults`. The goal is simple: flash the image, plug it in, and everything works without a pile of manual steps afterwards.
+- **Self-hosting and automation** — Docker for services, small Python scripts for the repetitive parts. Write it once, let it run in the background.
+
+> A simple preference: let scripts do the repetitive work, and write down every pit I fall into.
+
+### What's on the bench
+
+| Repo | What it is |
+| :--- | :--- |
+| [**Actions-ImmortalWrt-X86**](https://github.com/ywgf88/Actions-ImmortalWrt-X86) | ImmortalWrt `openwrt-25.12` x86_64 build template — 25.12.2 / IPv4 / 1G rootfs |
+| [**Actions-OpenWrt-MT7981**](https://github.com/ywgf88/Actions-OpenWrt-MT7981) | OpenWrt 25.12.2 images for MT7981 boards: CMCC RAX3000M and 360 T7 |
+| [**Actions-OpenWrt-X86**](https://github.com/ywgf88/Actions-OpenWrt-X86) | x86 build pipeline adapted from the P3TERX template |
+| [**openwrt-action-ct3003**](https://github.com/ywgf88/openwrt-action-ct3003) | My long-running daily-driver build for the CT3003 |
+
+<sub>The rest are issues-worth of interest and forks: Kwrt, ImmortalWrt-ImageBuilder, TrendRadar, aerial-tv… if it looks interesting, I pull it down and run it.</sub>
+
+### Numbers
+
+<div align="center">
+
+<sub>20 public repos · mostly Shell, a little Python · most of them still updated this year.</sub>
+
+</div>
+
+Everything here is a working note, not a product. If a repo saves you an hour, an issue is welcome.
+
+---
+
+## 中文版
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ywgf88/ywgf88/main/banner-ride.svg" width="100%" alt="ywgf88 — 白天骑行 / 晚上折腾路由器" />
+</div>
+
+### 关于我
 
 白天骑行：在绿道、在公园、在马路上，跟大自然和阳光打交道，顺路看武汉的街道和变化。
 晚上做实验：把路由器和固件当成玩具，反复刷机、改配置、修编译坑。
@@ -30,7 +72,7 @@
 
 </div>
 
-## 手头的仓库
+### 手头的仓库
 
 | 仓库 | 说明 |
 | :--- | :--- |
@@ -41,7 +83,7 @@
 
 <sub>其余仓库多是 issue 级别的关注与 fork：Kwrt、ImmortalWrt-ImageBuilder、TrendRadar、aerial-tv…… 看到有意思的就拉下来跑一遍。</sub>
 
-## 一点数据
+### 一点数据
 
 <div align="center">
 
@@ -53,50 +95,10 @@
 
 ---
 
-## English
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ywgf88/ywgf88/main/banner-ride-en.svg" width="100%" alt="ywgf88 — ride by day, flash by night" />
-</div>
-
-By day I ride — greenways, parks, and the streets of Wuhan, chasing daylight and watching how the city shifts block by block.
-By night I treat routers and firmware as a lab: flashing, reconfiguring, and chasing compile errors until the image finally boots.
-
-I signed up on GitHub back in 2018 and have used it as a scratchpad ever since. Three things take most of my time now:
-
-- **Firmware builds in the cloud** — GitHub Actions pipelines for ImmortalWrt 25.12 on both x86_64 and MT7981: swapping plugins, resizing rootfs, and fixing the bugs that only surface halfway through a build.
-- **Soft-router setups** — Passwall2, themes, `uci-defaults`. The goal is simple: flash the image, plug it in, and everything works without a pile of manual steps afterwards.
-- **Self-hosting and automation** — Docker for services, small Python scripts for the repetitive parts. Write it once, let it run in the background.
-
-> A simple preference: let scripts do the repetitive work, and write down every pit I fall into.
-
-## What's on the bench
-
-| Repo | What it is |
-| :--- | :--- |
-| [**Actions-ImmortalWrt-X86**](https://github.com/ywgf88/Actions-ImmortalWrt-X86) | ImmortalWrt `openwrt-25.12` x86_64 build template — 25.12.2 / IPv4 / 1G rootfs |
-| [**Actions-OpenWrt-MT7981**](https://github.com/ywgf88/Actions-OpenWrt-MT7981) | OpenWrt 25.12.2 images for MT7981 boards: CMCC RAX3000M and 360 T7 |
-| [**Actions-OpenWrt-X86**](https://github.com/ywgf88/Actions-OpenWrt-X86) | x86 build pipeline adapted from the P3TERX template |
-| [**openwrt-action-ct3003**](https://github.com/ywgf88/openwrt-action-ct3003) | My long-running daily-driver build for the CT3003 |
-
-<sub>The rest are issues-worth of interest and forks: Kwrt, ImmortalWrt-ImageBuilder, TrendRadar, aerial-tv… if it looks interesting, I pull it down and run it.</sub>
-
-## Numbers
-
-<div align="center">
-
-<sub>20 public repos · mostly Shell, a little Python · most of them still updated this year.</sub>
-
-</div>
-
-Everything here is a working note, not a product. If a repo saves you an hour, an issue is welcome.
-
-<p><a href="#关于我">↑ Back to the Chinese version</a></p>
-
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/ywgf88/ywgf88/main/logo.svg" width="88" alt="ywgf88 logo" />
 
-<sub>Wuhan, China — on GitHub since 2018</sub>
+<sub>Wuhan, China · 武汉 — on GitHub since 2018</sub>
 
 </div>
