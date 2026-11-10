@@ -39,12 +39,14 @@
 
 <sub>其余仓库多是 issue 级别的关注与 fork：Kwrt、ImmortalWrt-ImageBuilder、TrendRadar、aerial-tv…… 看到有意思的就拉下来跑一遍。</sub>
 
-## GitHub 数据
+## 一点数据
 
 <div align="center">
 
-<img height="150em" src="https://github-readme-stats.vercel.app/api?username=ywgf88&show_icons=true&hide_border=true&bg_color=0A1626&title_color=5FF0DC&icon_color=33C6FF&text_color=C8DCEA" alt="GitHub stats" />
-<img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ywgf88&layout=compact&hide_border=true&bg_color=0A1626&title_color=5FF0DC&text_color=C8DCEA&langs_count=6" alt="Top languages" />
+![Followers](https://img.shields.io/github/followers/ywgf88?style=for-the-badge&labelColor=0A1626&color=33C6FF&logo=github&logoColor=white)
+![Stars](https://img.shields.io/github/stars/ywgf88?style=for-the-badge&labelColor=0A1626&color=5FF0DC&logo=github&logoColor=white)
+
+<sub>Shell 为主，Python 为辅，剩下的交给 Actions 跑。</sub>
 
 </div>
 
