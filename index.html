@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>🎵 妈妈的话 · ywgf88</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: radial-gradient(circle at 50% 30%, #12283d 0%, #0A1626 60%, #060d16 100%);
+    color: #e6f0fa;
+    text-align: center;
+  }
+  .card {
+    width: min(92vw, 520px);
+    padding: 40px 28px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(51,198,255,0.18);
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+  }
+  .disc {
+    width: 120px; height: 120px;
+    margin: 0 auto 22px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #33C6FF 0%, #1b6fa8 30%, #0A1626 32%, #0A1626 100%);
+    box-shadow: 0 0 40px rgba(51,198,255,0.25);
+    animation: spin 8s linear infinite;
+    animation-play-state: paused;
+  }
+  .disc.playing { animation-play-state: running; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  h1 { margin: 0 0 6px; font-size: 26px; letter-spacing: 1px; }
+  .sub { margin: 0 0 26px; color: #8fb3cc; font-size: 14px; }
+  .btn {
+    appearance: none;
+    border: 0;
+    cursor: pointer;
+    padding: 13px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #04121c;
+    background: linear-gradient(135deg, #33C6FF, #6fe0ff);
+    border-radius: 999px;
+    box-shadow: 0 8px 24px rgba(51,198,255,0.3);
+    transition: transform .15s ease, box-shadow .15s ease;
+  }
+  .btn:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(51,198,255,0.45); }
+  .btn:active { transform: translateY(0); }
+  .hint { margin-top: 18px; font-size: 12px; color: #6f91a8; line-height: 1.7; }
+  audio { display: none; }
+  a { color: #33C6FF; text-decoration: none; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="disc" id="disc"></div>
+    <h1>妈妈的话</h1>
+    <p class="sub">Māma de Huà · 完整版 · ywgf88 的背景音乐</p>
+    <button class="btn" id="toggle">🔇 点击开启声音</button>
+    <p class="hint">
+      浏览器禁止有声自动播放,音乐已静音循环播放中。<br />
+      点上方按钮开启声音 · 再点可静音。<br />
+      <a href="https://github.com/ywgf88" target="_blank" rel="noopener">← 返回我的 GitHub 主页</a>
+    </p>
+  </div>
+
+  <audio id="bgm" src="mama-de-hua.mp3" autoplay loop muted playsinline></audio>
+
+  <script>
+    const audio = document.getElementById('bgm');
+    const btn = document.getElementById('toggle');
+    const disc = document.getElementById('disc');
+
+    function syncUI() {
+      if (audio.muted) {
+        btn.textContent = '🔇 点击开启声音';
+        disc.classList.remove('playing');
+      } else {
+        btn.textContent = '🔊 声音已开启（点击静音）';
+        disc.classList.add('playing');
+      }
+    }
+
+    // 静音自动播放,浏览器允许;若仍被拦截,等待首次交互再播放
+    audio.play().catch(() => {
+      document.addEventListener('click', function once() {
+        audio.muted = false;
+        audio.play();
+        document.removeEventListener('click', once);
+      }, { once: true });
+    });
+
+    btn.addEventListener('click', () => {
+      audio.muted = !audio.muted;
+      if (!audio.muted) audio.play();
+      syncUI();
+    });
+
+    // 页面加载后同步一次状态
+    audio.addEventListener('play', syncUI);
+    audio.addEventListener('volumechange', syncUI);
+    syncUI();
+  </script>
+</body>
+</html>
