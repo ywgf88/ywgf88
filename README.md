@@ -28,6 +28,10 @@ I signed up on GitHub back in 2018 and have used it as a scratchpad ever since. 
 
 <sub>The rest are issues-worth of interest and forks: Kwrt, ImmortalWrt-ImageBuilder, TrendRadar, aerial-tv… if it looks interesting, I pull it down and run it.</sub>
 
+### 🎵 Background music
+
+[▶ 妈妈的话 (Māma de Huà) — full version](https://raw.githubusercontent.com/ywgf88/ywgf88/main/mama-de-hua.mp3) — click to play in your browser.
+
 ### Numbers
 
 <div align="center">
@@ -82,6 +86,10 @@ Everything here is a working note, not a product. If a repo saves you an hour, a
 | [**openwrt-action-ct3003**](https://github.com/ywgf88/openwrt-action-ct3003) | CT3003 自用固件，长期维护的那一份 |
 
 <sub>其余仓库多是 issue 级别的关注与 fork：Kwrt、ImmortalWrt-ImageBuilder、TrendRadar、aerial-tv…… 看到有意思的就拉下来跑一遍。</sub>
+
+### 🎵 背景音乐
+
+[▶ 妈妈的话（完整版）](https://raw.githubusercontent.com/ywgf88/ywgf88/main/mama-de-hua.mp3) — 点击即可在浏览器中播放。
 
 ### 一点数据
 
