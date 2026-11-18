@@ -30,7 +30,7 @@ I signed up on GitHub back in 2018 and have used it as a scratchpad ever since. 
 
 ### 🎵 Background music
 
-[▶ 妈妈的话 (Māma de Huà) — full version](https://raw.githubusercontent.com/ywgf88/ywgf88/main/mama-de-hua.mp3) — click to play in your browser.
+[▶ Autoplay player (GitHub Pages)](https://ywgf88.github.io/ywgf88/) · [▶ 妈妈的话 (Māma de Huà) — full version](https://raw.githubusercontent.com/ywgf88/ywgf88/main/mama-de-hua.mp3) — click to play in your browser.
 
 ### Numbers
 
@@ -89,7 +89,7 @@ Everything here is a working note, not a product. If a repo saves you an hour, a
 
 ### 🎵 背景音乐
 
-[▶ 妈妈的话（完整版）](https://raw.githubusercontent.com/ywgf88/ywgf88/main/mama-de-hua.mp3) — 点击即可在浏览器中播放。
+[▶ 自动播放页面（GitHub Pages）](https://ywgf88.github.io/ywgf88/) · [▶ 妈妈的话（完整版）](https://raw.githubusercontent.com/ywgf88/ywgf88/main/mama-de-hua.mp3) — 点击即可在浏览器中播放。
 
 ### 一点数据
 
